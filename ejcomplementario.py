@@ -1,4 +1,4 @@
-
+#Lara juan ignacio, ej complementarios
 """" Les otorgo un valor a las variables """
 numero1=1
 numero2=1.1
