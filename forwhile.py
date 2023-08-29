@@ -19,40 +19,6 @@ Sólo se encriptarán las letras de los mensajes, dejando al resto de caracteres
 """Crear un programa que solicite el ingreso de números enteros positivos, hasta que el usuario ingrese el 
 0. Por cada número, informar cuántos dígitos pares y cuántos impares tiene.
 Al finalizar, informar la cantidad de dígitos pares y de dígitos impares leídos en total"""
-par=0
-impar=0
-cont=0
-condi=True
-num=input("ingrese numeros enteros positivos: ")
-longi=len(num)
+num=input("Ingrese un numero posiivo")
 
-
-while(condi==True):
-    while (num[cont]!=0):
-        indice=int(num[cont])
-        if (indice==0):
-            condi=False
-        else:
-            cont=cont+1
-    num=input("Ingrese otro numero:")
-
-
-
-while (num[cont]!=0):
-    indice=int(num[cont])
-        
-    if (indice%2==0):
-        par=par+1
-        cont=cont+1
-    elif (indice%2!=0):
-            impar=impar+1
-            cont=cont+1
-    else:
-        break
-
-        
-print("cantidad de numeros pares: ", par)
-print("cantidad de numeros impares: ", impar)
-
-
-    
+while (num!=0):
